@@ -1,9 +1,9 @@
-# HW2 submission
+﻿# HW2 submission
 
-**Name:**
-**Student ID:**
-**Group:**
-**Repository:**
+**Name:** Ricky Richard Takahindangen Ricky Richard Takahindangen
+**Student ID:**26078831 TD26078831
+**Group:** Individual Individual
+**Repository:** https://github.com/rickyrichard26/ai-2026-hw2-rickyrichard26.git https://github.com/rickyrichard26/ai-2026-hw2-rickyrichard26.git
 
 ## AI tool disclosure
 
@@ -14,7 +14,7 @@ is not. If you used a model to help you draft a prompt, say which prompt.
 
 ---
 
-## Sublab Easy — one task, four roles
+## Sublab Easy â€” one task, four roles
 
 ### Decisions per role
 
@@ -75,25 +75,25 @@ E-03, E-04, E-07 and E-10 are each testing.
 
 >
 
-**3. Where does discretion belong — the role paragraph, or code that reads
+**3. Where does discretion belong â€” the role paragraph, or code that reads
 `decision` afterwards?** Say what a downstream program can and cannot tell
 about which role produced a record.
 
 >
 
 **4. Is a role a boundary?** Say in Week 2 terms what the role paragraph is
-made of, and what you would put in code — not in the prompt — if a wrong
+made of, and what you would put in code â€” not in the prompt â€” if a wrong
 `decision` were expensive.
 
 >
 
 ---
 
-## Sublab Medium — memory you choose
+## Sublab Medium â€” memory you choose
 
 ### Tokens per call
 
-| Call | A — never compressed | B — compressed at the `compress` turn |
+| Call | A â€” never compressed | B â€” compressed at the `compress` turn |
 |---|---|---|
 | 1 | | |
 | 2 | | |
@@ -116,7 +116,7 @@ made of, and what you would put in code — not in the prompt — if a wrong
 |---|---|---|---|---|---|
 | Q-1 identity | turn 1 | | | | |
 | Q-2 missing document | turn 5 | | | | |
-| Q-3 band and amount | turns 3–4 | | | | |
+| Q-3 band and amount | turns 3â€“4 | | | | |
 | Q-4 the constraint | turn 6 | | | | |
 | Q-5 the open question | turn 7 | | | | |
 | **retrieved** | | /5 | | /5 | |
@@ -129,7 +129,7 @@ made of, and what you would put in code — not in the prompt — if a wrong
 ### Written answers
 
 **1. What did compression buy?** Peak tokens both ways, probes retrieved both
-ways, and — if a probe was lost — which one and which turn it came from.
+ways, and â€” if a probe was lost â€” which one and which turn it came from.
 
 >
 
@@ -152,9 +152,9 @@ notice.
 
 ---
 
-## Sublab Hard — stories in, CVs out, the best candidate by code
+## Sublab Hard â€” stories in, CVs out, the best candidate by code
 
-### Part 1 — extraction
+### Part 1 â€” extraction
 
 | Story | Parsed? | Valid? | Fields that came back `null` | Traps hit |
 |---|---|---|---|---|
@@ -165,17 +165,17 @@ notice.
 | story-05 | | | | |
 | story-06 | | | | |
 
-The four traps, for reference: no GPA stated · a GPA on another scale · a paper
-that is not published · a story that contradicts itself.
+The four traps, for reference: no GPA stated Â· a GPA on another scale Â· a paper
+that is not published Â· a story that contradicts itself.
 
 Paste the extraction for **story-06**, the one that contradicts itself:
 
 ```json
 ```
 
-### Part 2 — scores and the winner
+### Part 2 â€” scores and the winner
 
-| Candidate | academic (0–5) | research (0–5) | experience (0–5) | weighted total (code) |
+| Candidate | academic (0â€“5) | research (0â€“5) | experience (0â€“5) | weighted total (code) |
 |---|---|---|---|---|
 | story-01 | | | | |
 | story-02 | | | | |
@@ -191,7 +191,7 @@ Paste the extraction for **story-06**, the one that contradicts itself:
 >
 ```
 
-### Part 3 — written answers
+### Part 3 â€” written answers
 
 **1. Which rule did you have to add, and what broke without it?** Name the
 story that forced it.
@@ -204,7 +204,7 @@ example of each, from your run.
 >
 
 **3. Did your prose ranking and your computed ranking agree?** Say which one
-you trust and why — and if they agreed, what you would need to see before
+you trust and why â€” and if they agreed, what you would need to see before
 trusting the prose one alone.
 
 >
@@ -226,7 +226,9 @@ to make that call defensible.
 ## Reflection (optional, one short paragraph)
 
 Having now written a role prompt, compressed a conversation, and ranked six
-extractions — what will you do differently the next time you build something
+extractions â€” what will you do differently the next time you build something
 that has to get reliable structured output out of a model?
 
 >
+
+
